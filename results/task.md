@@ -1,0 +1,23 @@
+# Task List
+
+- [x] Explore project structure and identify target folders <!-- id: 0 -->
+- [x] Create/Populate `config` folder with configuration logic <!-- id: 1 -->
+- [x] Create/Populate `logs` folder with logging logic <!-- id: 2 -->
+- [x] Implement result saving logic in `results` folder <!-- id: 3 -->
+- [x] Move/Copy artifacts/markdown files to `results` folder <!-- id: 4 -->
+- [x] Find and copy presentation/snapshot files to `results` folder <!-- id: 6 -->
+- [x] Create Architecture Presentation (`architecture_presentation.md`) <!-- id: 7 -->
+- [x] Generate `Architecture_Presentation.docx` with embedded images <!-- id: 11 -->
+- [x] Create `Technical_Notes.docx` and `Demo_Evidence.docx` <!-- id: 13 -->
+- [x] Create source code zip archive <!-- id: 12 -->
+- [x] Move generation scripts to `scripts/` folder <!-- id: 14 -->
+- [x] Run full test suite (`pytest`) <!-- id: 15 -->
+- [x] Verify `main.py` execution <!-- id: 16 -->
+- [x] Re-package deliverables <!-- id: 17 -->
+- [x] Update `README.md` with Scaling Strategy and Assumptions <!-- id: 8 -->
+- [x] Generate and capture "Summarization Mode" evidence <!-- id: 9 -->
+- [x] Run Docker container (`docker-compose up`) <!-- id: 18 -->
+- [x] Capture UI screenshots from Docker instance <!-- id: 19 -->
+- [x] Update `Demo_Evidence.docx` with new screenshots <!-- id: 20 -->
+- [x] Finalize `results` folder and zip source (optional) <!-- id: 10 -->
+- [x] Verify changes <!-- id: 5 -->

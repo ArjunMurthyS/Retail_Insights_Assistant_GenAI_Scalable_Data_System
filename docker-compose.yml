@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  retail-assistant:
+    build: .
+    volumes:
+      - ./src:/app/src
+      - ./tests:/app/tests
+      - ./streamlit_app.py:/app/streamlit_app.py
+      - ./Sales_Dataset:/app/Sales_Dataset # Mount the local dataset
+      - ./logs:/app/logs
+    env_file:
+      - .env
+    ports:
+      - "8501:8501"
+    environment:
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_MODEL_NAME=gpt-3.5-turbo
+    stdin_open: true # For interactive input
+    tty: true # For interactive input
+    command: streamlit run streamlit_app.py --server.address=0.0.0.0

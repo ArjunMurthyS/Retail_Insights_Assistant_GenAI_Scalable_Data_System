@@ -1,0 +1,10 @@
+duckdb
+pandas
+langchain
+langchain-google-genai
+python-dotenv
+pytest
+tabulate
+openpyxl
+streamlit
+langchain-openai

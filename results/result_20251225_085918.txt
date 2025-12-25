@@ -1,0 +1,4 @@
+Query: total sales
+
+Response:
+Based on the data provided, the total sales amount is approximately 78,592,700.
